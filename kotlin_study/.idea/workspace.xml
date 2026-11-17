@@ -5,92 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be33549a-d87c-4e17-af60-8d30adf4bc60" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BookMarket/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/.idea/AndroidProjectSystem.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/androidTest/java/com/example/bookmarket/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/java/com/example/bookmarket/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/keepRules/rules.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/app/src/test/java/com/example/bookmarket/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookMarket/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/androidTest/java/com/example/helloworld/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/java/com/example/helloworld/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/keepRules/rules.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/app/src/test/java/com/example/helloworld/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld/settings.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/androidTest/java/com/example/helloworld/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/androidTest/java/com/example/bookmarket/ExampleInstrumentedTest.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/helloworld/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/bookmarket/MainActivity.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/src/main/keepRules/rules.keep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
@@ -113,7 +33,7 @@
       <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/themes.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/test/java/com/example/helloworld/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/test/java/com/example/bookmarket/ExampleUnitTest.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../build.gradle.kts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gradle/gradle-daemon-jvm.properties" beforeDir="false" />
@@ -122,6 +42,7 @@
       <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sbb" beforeDir="false" afterPath="$PROJECT_DIR$/../sbb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../settings.gradle.kts" beforeDir="false" />
     </list>
@@ -134,7 +55,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="119" />
+    <option name="cachedIndexableFilesCount" value="6132" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -143,10 +64,10 @@
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3MDbp13g8gwopJfbwVa7B8zdI86" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -157,6 +78,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
