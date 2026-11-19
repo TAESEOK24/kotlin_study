@@ -22,7 +22,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".MenuActivity" android:exported="false" />
-        <activity android:name=".BooksActivity" android:exported="false" />
+        <activity
+            android:name=".BooksActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BookMarket.WithActionBar" />
+        <activity
+            android:name=".BookActivity"
+            android:exported="false"
+            android:theme="@style/Theme.BookMarket.WithActionBar" />
     </application>
 
 </manifest>

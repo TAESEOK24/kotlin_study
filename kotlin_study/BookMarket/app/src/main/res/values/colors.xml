@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="bookmarket_primary">#49AEAF</color>
+    <color name="bookmarket_menu_icon">#FFB74D</color>
+    <color name="bookmarket_header">#F3A56B</color>
 </resources>
