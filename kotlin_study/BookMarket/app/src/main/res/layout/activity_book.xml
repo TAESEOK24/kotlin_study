@@ -10,11 +10,21 @@
     android:orientation="vertical"
     tools:context=".BookActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
-        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/book_bg"
         android:orientation="horizontal">
 
@@ -31,9 +41,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_weight="1"
         android:orientation="vertical">
 
         <LinearLayout
@@ -187,7 +196,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.8"
             android:orientation="horizontal"
             android:padding="10dp"
             android:weightSum="1">
@@ -212,7 +220,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.8"
             android:gravity="bottom"
             android:orientation="vertical">
 
@@ -224,6 +231,17 @@
         </LinearLayout>
 
     </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/book_add_to_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:minHeight="48dp"
+        android:text="@string/cart_add" />
 
 </LinearLayout>
 

@@ -30,6 +30,21 @@
             android:name=".BookActivity"
             android:exported="false"
             android:theme="@style/Theme.BookMarket.WithActionBar" />
+        <activity
+            android:name=".cart.CartActivity"
+            android:exported="false"
+            android:label="@string/menu_cart"
+            android:theme="@style/Theme.BookMarket.WithActionBar" />
+        <activity
+            android:name=".order.ShippingActivity"
+            android:exported="false"
+            android:label="배송 정보"
+            android:theme="@style/Theme.BookMarket.WithActionBar" />
+        <activity
+            android:name=".order.OrderActivity"
+            android:exported="false"
+            android:label="주문 확인"
+            android:theme="@style/Theme.BookMarket.WithActionBar" />
     </application>
 
 </manifest>

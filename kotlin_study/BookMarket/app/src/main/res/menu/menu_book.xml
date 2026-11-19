@@ -10,7 +10,9 @@
         android:title="@string/menu_list" />
     <item
         android:id="@+id/menu_cart"
-        android:title="@string/menu_cart" />
+        android:icon="@drawable/icon_cart"
+        android:title="@string/menu_cart"
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/main_video"
         android:title="동영상강좌" />
@@ -25,5 +27,5 @@
         android:icon="@drawable/icon_search"
         android:title="검색"
         app:actionViewClass="android.widget.SearchView"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom|collapseActionView" />
 </menu>

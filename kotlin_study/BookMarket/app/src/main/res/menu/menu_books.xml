@@ -8,6 +8,11 @@
         app:actionViewClass="android.widget.SearchView"
         app:showAsAction="ifRoom|collapseActionView" />
     <item
+        android:id="@+id/menu_cart"
+        android:icon="@drawable/icon_cart"
+        android:title="@string/menu_cart"
+        app:showAsAction="ifRoom" />
+    <item
         android:id="@+id/menu_home"
         android:title="@string/menu_home" />
     <item

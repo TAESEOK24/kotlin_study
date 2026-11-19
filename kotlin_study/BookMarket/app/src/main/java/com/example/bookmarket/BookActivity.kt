@@ -4,12 +4,16 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.bookmarket.cart.CartActivity
+import com.example.bookmarket.model.Book
+import com.example.bookmarket.model.CartRepository
 
 class BookActivity : AppCompatActivity() {
 
@@ -73,6 +77,20 @@ class BookActivity : AppCompatActivity() {
 
         }
         getSupportActionBar()?.setDisplayHomeAsUpEnabled(true)
+
+        findViewById<Button>(R.id.book_add_to_cart).setOnClickListener {
+            val book = Book().apply {
+                bookid = bookidObj.text.toString()
+                name = nameObj.text.toString()
+                price = priceObj.text.toString().toIntOrNull() ?: 0
+                date = dateObj.text.toString()
+                writer = writerObj.text.toString()
+                description = descriptionObj.text.toString()
+                category = categoryObj.text.toString()
+            }
+            CartRepository.addCartItems(book)
+            Toast.makeText(this, R.string.cart_added, Toast.LENGTH_SHORT).show()
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -101,7 +119,7 @@ class BookActivity : AppCompatActivity() {
                 return true
             }
             R.id.menu_cart -> {
-                Toast.makeText(applicationContext,"장바구니 메뉴를 클릭하였습니다",Toast.LENGTH_LONG).show()
+                startActivity(Intent(this, CartActivity::class.java))
 
                 return true
             }

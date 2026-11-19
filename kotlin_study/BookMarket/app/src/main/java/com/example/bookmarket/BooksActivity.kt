@@ -19,6 +19,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
+import com.example.bookmarket.cart.CartActivity
 
 class BooksActivity : AppCompatActivity() {
 
@@ -208,6 +209,10 @@ class BooksActivity : AppCompatActivity() {
         }
 
         when(item.itemId) {
+            R.id.menu_cart -> {
+                startActivity(Intent(this, CartActivity::class.java))
+                return true
+            }
             R.id.menu_home -> {
                 Toast.makeText(applicationContext,"홈으로 메뉴를 클릭하였습니다",Toast.LENGTH_LONG).show()
                 finish()

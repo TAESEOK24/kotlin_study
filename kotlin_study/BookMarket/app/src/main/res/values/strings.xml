@@ -3,6 +3,14 @@
     <string name="menu_home">홈으로</string>
     <string name="menu_list">도서목록</string>
     <string name="menu_cart">장바구니</string>
+    <string name="cart_add">장바구니 담기</string>
+    <string name="cart_added">장바구니에 담았습니다.</string>
+    <string name="cart_empty">장바구니가 비어 있습니다.\n도서 상세 화면에서 도서를 담아 주세요.</string>
+    <string name="cart_select_book">주문할 도서를 선택해 주세요.</string>
+    <string name="cart_total_price">%1$,d원</string>
+    <string name="cart_delete">장바구니 비우기</string>
+    <string name="cart_delete_book">도서 삭제</string>
+    <string name="cart_order">주문하기</string>
     <string name="menu_search">도서 검색</string>
     <string name="menu_video">동영상강좌</string>
     <string name="menu_customer">고객센터</string>
