@@ -45,6 +45,17 @@
             android:exported="false"
             android:label="주문 확인"
             android:theme="@style/Theme.BookMarket.WithActionBar" />
+        <activity
+            android:name=".mypage.MyPageActivity"
+            android:exported="false"
+            android:label="@string/menu_mypage"
+            android:theme="@style/Theme.BookMarket.MyPage" />
+        <activity
+            android:name=".mypage.MemoActivity"
+            android:exported="false"
+            android:label="@string/memo_title"
+            android:theme="@style/Theme.BookMarket.MyPage"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

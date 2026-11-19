@@ -14,6 +14,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.bookmarket.cart.CartActivity
 import com.example.bookmarket.model.Book
 import com.example.bookmarket.model.CartRepository
+import com.example.bookmarket.mypage.MyPageActivity
 
 class BookActivity : AppCompatActivity() {
 
@@ -121,6 +122,10 @@ class BookActivity : AppCompatActivity() {
             R.id.menu_cart -> {
                 startActivity(Intent(this, CartActivity::class.java))
 
+                return true
+            }
+            R.id.menu_mypage -> {
+                startActivity(Intent(this, MyPageActivity::class.java))
                 return true
             }
 

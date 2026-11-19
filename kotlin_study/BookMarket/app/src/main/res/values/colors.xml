@@ -5,4 +5,7 @@
     <color name="bookmarket_primary">#49AEAF</color>
     <color name="bookmarket_menu_icon">#FFB74D</color>
     <color name="bookmarket_header">#F3A56B</color>
+    <color name="memo_teal">#429F9B</color>
+    <color name="memo_orange">#FDA95A</color>
+    <color name="memo_selection">#FFE0B2</color>
 </resources>

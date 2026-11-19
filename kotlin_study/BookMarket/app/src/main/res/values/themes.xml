@@ -10,4 +10,14 @@
         <item name="windowActionBar">true</item>
         <item name="windowNoTitle">false</item>
     </style>
+    <style name="Theme.BookMarket.MyPage" parent="Theme.BookMarket.WithActionBar">
+        <item name="colorPrimary">@color/memo_teal</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="actionBarStyle">@style/Widget.BookMarket.ActionBar</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Widget.BookMarket.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/memo_teal</item>
+    </style>
 </resources>

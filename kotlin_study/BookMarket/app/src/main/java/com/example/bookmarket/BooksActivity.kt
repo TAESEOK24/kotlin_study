@@ -20,6 +20,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 import com.example.bookmarket.cart.CartActivity
+import com.example.bookmarket.mypage.MyPageActivity
 
 class BooksActivity : AppCompatActivity() {
 
@@ -95,7 +96,8 @@ class BooksActivity : AppCompatActivity() {
             .setNavigationItemSelectedListener { item ->
                 when (item.itemId) {
                     R.id.menu01 -> Unit // Already on the book list.
-                    R.id.menu02, R.id.menu03 ->
+                    R.id.menu03 -> startActivity(Intent(this, MyPageActivity::class.java))
+                    R.id.menu02 ->
                         Toast.makeText(this, item.title, Toast.LENGTH_SHORT).show()
                 }
                 drawerLayout.closeDrawer(GravityCompat.START)
@@ -229,7 +231,7 @@ class BooksActivity : AppCompatActivity() {
                 return true
             }
             R.id.menu_mypage -> {
-                Toast.makeText(applicationContext,"마이페이지 메뉴를 클릭하였습니다",Toast.LENGTH_LONG).show()
+                startActivity(Intent(this, MyPageActivity::class.java))
                 return true
             }
         }
